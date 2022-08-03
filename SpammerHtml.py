@@ -7,7 +7,7 @@ def task(id):
     while True:
         print(requests.get(url, proxies=proxies))
 
-url = "https://store.hypixel-redeem.net/api/code?name=" + str(randint(99999999999999999999999999999,99999999999999999999999999999999)) + "&code=" + str(randint(2534423,9999823))
+url = input("url: ")
 proxies = {
    'http': 'http://101.200.127.149:3129',
    'http': '122.155.165.191:3128',
