@@ -8,11 +8,7 @@ def task(id):
         print(requests.get(url, proxies=proxies))
 
 url = input("url: ")
-proxies = {
-   'http': 'http://101.200.127.149:3129',
-   'http': '122.155.165.191:3128',
-   'http': '110.82.143.22:4216'
-}
+proxies = {}
 
 threads = []
 for n in range(1, 3001):
